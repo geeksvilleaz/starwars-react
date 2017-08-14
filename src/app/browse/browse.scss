@@ -1,0 +1,44 @@
+.browse {
+  padding: 10px;
+  max-width: 200px;
+  margin: 20px;
+
+  h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      display: block;
+
+      button {
+        background: transparent;
+        border: 0;
+        color: grey;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 1.5em;
+        margin: 5px 0;
+        padding-left: 10px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 100%;
+
+        &:hover {
+          color: white;
+        }
+
+        &.active {
+          color: white;
+          border: 0;
+          border-left: 2px solid red;
+          outline: none;
+        }
+      }
+    }
+  }
+}
