@@ -33,8 +33,7 @@ class Pagination extends Component {
 
   render() {
     const {next, previous} = this.props.category;
-    const {goTo} = this.props;
-
+    
     let links = [];
     for ( let x = 1; x <= this.state.numPages; x++) {
       links.push(

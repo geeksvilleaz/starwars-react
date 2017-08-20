@@ -6,12 +6,12 @@
       text-transform: uppercase;
       letter-spacing: 5px;
     }
+  }
 
-    section.main {
-      display: flex;
-    }
+  section.main {
+    display: flex;
 
-    section .browse {
+    app-browse {
       width: 175px;
       border-right: 2px solid darkslategrey;
     }

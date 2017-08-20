@@ -1,31 +1,31 @@
 .browse {
   padding: 10px;
-  max-width: 200px;
-  margin: 20px; }
-  .browse h3 {
-    font-size: 12px;
-    text-transform: uppercase; }
-  .browse ul {
-    list-style: none;
-    padding-left: 0; }
-    .browse ul li {
-      display: block; }
-      .browse ul li button {
-        background: transparent;
+  max-width: 200px; }
+
+h3 {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+  ul li {
+    display: block; }
+    ul li button {
+      background: transparent;
+      border: 0;
+      color: grey;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 1.5em;
+      padding-left: 10px;
+      text-align: left;
+      text-transform: uppercase;
+      width: 100%; }
+      ul li button:hover {
+        color: white; }
+      ul li button.active {
+        color: white;
         border: 0;
-        color: grey;
-        cursor: pointer;
-        font-size: 14px;
-        line-height: 1.5em;
-        margin: 5px 0;
-        padding-left: 10px;
-        text-align: left;
-        text-transform: uppercase;
-        width: 100%; }
-        .browse ul li button:hover {
-          color: white; }
-        .browse ul li button.active {
-          color: white;
-          border: 0;
-          border-left: 2px solid red;
-          outline: none; }
+        border-left: 2px solid red;
+        outline: none; }

@@ -1,16 +1,13 @@
 .wrapper header {
   border-bottom: 2px solid darkslategrey; }
-
-.wrapper header h1 {
-  text-transform: uppercase;
-  letter-spacing: 5px; }
+  .wrapper header h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px; }
 
 .wrapper section.main {
   display: flex; }
-
-.wrapper section .browse {
-  width: 175px;
-  border-right: 2px solid darkslategrey; }
-
-.wrapper main {
-  padding: 1em; }
+  .wrapper section.main app-browse {
+    width: 175px;
+    border-right: 2px solid darkslategrey; }
+  .wrapper section.main main {
+    padding: 1em; }
