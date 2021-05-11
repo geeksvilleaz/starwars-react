@@ -1,4 +1,4 @@
-const API_URL = 'https://swapi.co/api/';
+const API_URL = 'https://swapi.dev/api/';
 
 class Service {
   getMenu() {
