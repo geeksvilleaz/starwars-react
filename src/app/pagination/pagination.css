@@ -3,7 +3,8 @@
   color: #404040;
   background: #26272c;
   margin: 80px auto;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .pagination {
   padding: 8px;
@@ -17,45 +18,57 @@
   zoom: 1;
   *display: inline;
   *vertical-align: auto;
-  box-shadow: 0 1px rgba(255, 255, 255, 0.05); }
-  .pagination > a, .pagination > span {
-    float: left;
-    margin-left: 5px;
-    padding: 0 6px;
-    min-width: 17px;
-    line-height: 27px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    color: #d4d4d4;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 3px; }
-  .pagination :first-child {
-    margin-left: 0; }
-  .pagination > a {
-    text-decoration: none;
-    text-shadow: 0 1px black;
-    background-clip: padding-box;
-    border-color: rgba(0, 0, 0, 0.9); }
-    .pagination > a:hover {
-      background-color: #333;
-      background-color: rgba(255, 255, 255, 0.05);
-      cursor: pointer; }
-  .pagination > span, .pagination > a:active, .pagination a.active {
-    color: #eee;
-    text-shadow: 0 -1px black;
-    background: #1c1c1c;
-    background: rgba(255, 255, 255, 0.01);
-    border-color: black rgba(0, 0, 0, 0.65) rgba(0, 0, 0, 0.6); }
-  .pagination .prev, .pagination .next {
-    font-family: Noteworthy, Arial, sans-serif;
-    font-size: 14px; }
+  box-shadow: 0 1px rgba(255, 255, 255, 0.05);
+}
+.pagination > a, .pagination > span {
+  float: left;
+  margin-left: 5px;
+  padding: 0 6px;
+  min-width: 17px;
+  line-height: 27px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #d4d4d4;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.pagination :first-child {
+  margin-left: 0;
+}
+.pagination > a {
+  text-decoration: none;
+  text-shadow: 0 1px black;
+  background-clip: padding-box;
+  border-color: rgba(0, 0, 0, 0.9);
+}
+.pagination > a:hover {
+  background-color: #333;
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+}
+.pagination > span, .pagination > a:active, .pagination a.active {
+  color: #eee;
+  text-shadow: 0 -1px black;
+  background: #1c1c1c;
+  background: rgba(255, 255, 255, 0.01);
+  border-color: black rgba(0, 0, 0, 0.65) rgba(0, 0, 0, 0.6);
+}
+.pagination .prev, .pagination .next {
+  font-family: Noteworthy, Arial, sans-serif;
+  font-size: 14px;
+}
 
 .pagination-blue {
-  background-color: rgba(0, 5, 50, 0.1); }
-  .pagination-blue > a {
-    background-color: rgba(170, 170, 255, 0.01); }
-  .pagination-blue > a.hover {
-    background-color: rgba(120, 130, 255, 0.08); }
+  background-color: rgba(0, 5, 50, 0.1);
+}
+.pagination-blue > a {
+  background-color: rgba(170, 170, 255, 0.01);
+}
+.pagination-blue > a.hover {
+  background-color: rgba(120, 130, 255, 0.08);
+}
+
+/*# sourceMappingURL=pagination.css.map */

@@ -1,5 +1,6 @@
 .button-wrapper {
-  position: relative; }
+  position: relative;
+}
 
 .sw-button {
   background-color: #42d6ca;
@@ -11,25 +12,32 @@
   height: 50px;
   margin: 10px;
   text-align: center;
-  transition: all .5s ease;
-  width: 150px; }
-  .sw-button:before {
-    border: 2px transparent solid;
-    box-sizing: border-box;
-    content: ' ';
-    height: 60px;
-    left: 5px;
-    position: absolute;
-    top: 5px;
-    transition: all .7s ease;
-    width: 160px; }
-  .sw-button:focus {
-    opacity: .2;
-    outline: none; }
-  .sw-button:hover {
-    background-color: rgba(66, 214, 202, 0.7);
-    border-radius: 20px;
-    color: #fff; }
-    .sw-button:hover:before {
-      border-radius: 20px;
-      border: 2px #42d6ca solid; }
+  transition: all 0.5s ease;
+  width: 150px;
+}
+.sw-button:before {
+  border: 2px transparent solid;
+  box-sizing: border-box;
+  content: " ";
+  height: 60px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  transition: all 0.7s ease;
+  width: 160px;
+}
+.sw-button:focus {
+  opacity: 0.2;
+  outline: none;
+}
+.sw-button:hover {
+  background-color: rgba(66, 214, 202, 0.7);
+  border-radius: 20px;
+  color: #fff;
+}
+.sw-button:hover:before {
+  border-radius: 20px;
+  border: 2px #42d6ca solid;
+}
+
+/*# sourceMappingURL=button.css.map */
